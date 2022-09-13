@@ -92,6 +92,7 @@ export default {
   },
 
   methods: {
+      // Untuk submit
     submitTask() {
       if (this.task.length === 0) return;
 
